@@ -87,7 +87,7 @@ The ``w`` option accepts the following values:
        If you set ``w`` to a number that is greater than the number of
        set members that hold data, MongoDB waits for the non-existent
        members to become available, which means MongoDB blocks
-       indefinitely.
+       indefinitely, or until a specified wtimeout.
 
    * - ``"majority"``
 
